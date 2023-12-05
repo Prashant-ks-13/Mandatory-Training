@@ -26,6 +26,8 @@ class Assign22ApplicationTests {
 		student.setAge(age);
 		student.setSalary(salary);
 
+
+
 		Assertions.assertEquals(name, student.getName());
 		Assertions.assertEquals(age, student.getAge());
 		Assertions.assertEquals(salary, student.getSalary());
